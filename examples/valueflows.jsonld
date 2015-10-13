@@ -1,0 +1,19 @@
+{
+  "@context": [
+    "https://rawgit.com/valueflows/agent/master/context.jsonld",
+    {
+      "Product": "vf:Product"
+    }
+  ],
+  "@id": "https://api.valueflo.ws/61303f97-ef12-4c8b-a03b-dea66823af19",
+  "url": "https://valueflo.ws/",
+  "@type": "Product",
+  "displayName": "ValueFlows",
+  "image": "https://avatars2.githubusercontent.com/u/8381170",
+  "role:maintainer": [
+    "https://graph.wwelves.org/ef093385-8906-4c78-9a69-9217c76013a8",
+    "http://dinosaur.is#i",
+    "http://nrp.webfactional.com/accounting/agent/1",
+    "http://nrp.webfactional.com/accounting/agent/6"
+  ]
+}
