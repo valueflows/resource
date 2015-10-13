@@ -29,3 +29,4 @@ Or you may want a Granny Smith apple from your neighboring farm.
 This is the first draft of the README for the resource section of the valueflows vocabulary. 
 We will have a lot more to say about Resources and ResourceTypes, both on their own, 
 and also how they behave in Processes and Exchanges, because different ResourceTypes behave very differently.
+We are discussing some of those differences in [this issue](https://github.com/valueflows/resource/issues/4).
