@@ -1,10 +1,9 @@
 {
   "@context": [
     "https://w3id.org/role/",
-    "https://rawgit.com/valueflows/agent/master/context.jsonld",
+    "https://rawgit.com/valueflows/resource/master/context.jsonld",
     {
-      "role": "https://w3id.org/role/",
-      "Resource": "vf:Resource"
+      "role": "https://w3id.org/role/"
     }
   ],
   "@id": "https://rawgit.com/valueflows/resource/master/examples/valueflows.jsonld#id",
