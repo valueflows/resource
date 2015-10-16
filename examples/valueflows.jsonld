@@ -1,14 +1,16 @@
 {
   "@context": [
+    "https://w3id.org/role/",
     "https://rawgit.com/valueflows/agent/master/context.jsonld",
     {
+      "role": "https://w3id.org/role/",
       "Resource": "vf:Resource"
     }
   ],
-  "@id": "https://api.valueflo.ws/61303f97-ef12-4c8b-a03b-dea66823af19",
+  "@id": "https://rawgit.com/valueflows/resource/master/examples/valueflows.jsonld#id",
   "url": "https://valueflo.ws/",
   "@type": "Resource",
-  "displayName": "ValueFlows",
+  "displayName": "ValueFlows: Linked Data Vocabulary",
   "image": "https://avatars2.githubusercontent.com/u/8381170",
   "role:maintainer": [
     "https://graph.wwelves.org/ef093385-8906-4c78-9a69-9217c76013a8",
