@@ -1,0 +1,12 @@
+{
+  "@context": [
+    "https://rawgit.com/valueflows/resource/master/context.jsonld",
+    {
+      "ResourceType": "owl:Class"
+    }
+  ],
+  "@id": "https://rawgit.com/valueflows/resource/master/examples/native-web-app.jsonld#id",
+  "@type": "ResourceType",
+  "label": "Native Web App",
+  "note": "https://blog.andyet.com/2015/01/22/native-web-apps"
+}

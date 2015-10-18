@@ -1,0 +1,20 @@
+{
+  "@context": [
+    "https://rawgit.com/valueflows/resource/master/context.jsonld",
+    {
+      "dex": "https://holodex.enspiral.com/api/",
+      "Native Web App": "https://rawgit.com/valueflows/resource/master/examples/native-web-app.jsonld#id",
+      "dex:relationshipTypes/is-maintained-by": { "@type": "@id" }
+    }
+  ],
+  "@id": "https://rawgit.com/valueflows/resource/master/examples/holodex.jsonld#id",
+  "@type": "Native Web App",
+  "label": "Holodex",
+  "url": "https://github.com/open-app/holodex",
+  "image": "https://avatars1.githubusercontent.com/u/11022762?v=3",
+  "note": "https://raw.githubusercontent.com/open-app/holodex/master/README.md",
+  "dex:relationshipTypes/is-maintained-by": [
+    "dex:agents/mikey",
+    "dex:agents/simon"
+  ]
+}
