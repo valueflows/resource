@@ -5,7 +5,9 @@ We think of Economy in the original sense of [management of our household](https
 
 ## What's the difference?
 
-An Economic Resource is anything that valuable to anybody. It may also be an input to or an output from a process or transferred in an exchange. 
+An Economic Resource is anything that valuable to anybody. We prefer to think of use value, so anything that is useful to anybody, but Economic Resources also often have exchange value.
+
+An Economic Resource may also be an input to or an output from a process or transferred in an exchange. 
 A ResourceType defines what type of thing the Resource is.
 
 So, for example, most things offered for sale on an e-commerce site are ResourceTypes. 
