@@ -1,9 +1,11 @@
 # resource
-Vocab about Resources and ResourceTypes
+Vocab about Economic Resources and Economic ResourceTypes.
+
+We think of Economy in the original sense of [management of our household](https://en.wikipedia.org/wiki/Economy).
 
 ## What's the difference?
 
-A Resource anything that is an input to or an output from a process or transferred in an exchange. 
+An Economic Resource is anything that valuable to anybody. It may also be an input to or an output from a process or transferred in an exchange. 
 A ResourceType defines what type of thing the Resource is.
 
 So, for example, most things offered for sale on an e-commerce site are ResourceTypes. 
