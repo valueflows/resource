@@ -43,25 +43,25 @@ vf:ExchangeType
 # Properties
 
 vf:resourceType
-  a owl:DatatypeProperty;
+  a owl:ObjectProperty;
   rdfs:label "resource type";
   rdfs:domain vf:Resource;
   rdfs:range vf:ResourceType.
 
 vf:processType
-  a rdf:Property;
+  a rdf:ObjectProperty;
   skos:prefLabel "process type";
   rdfs:domain vf:Process;
   rdfs:range vf:ProcessType.
 
 vf:exchangeType
-  a rdf:Property;
+  a rdf:ObjectProperty;
   skos:prefLabel "exchange type";
   rdfs:domain vf:Exchange;
   rdfs:range vf:ExchangeType.
 
 vf:input
-  a owl:DatatypeProperty;
+  a owl:ObjectProperty;
   rdfs:label "input";
   rdfs:domain vf:Process;
   rdfs:range vf:Resource.
