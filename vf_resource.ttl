@@ -7,6 +7,11 @@
 @prefix vf: <https://w3id.org/valueflows/>.
 
 
+# Metadata
+
+<https://w3id.org/valueflows/> rdf:type owl:Ontology .
+
+
 # Classes
 
 vf:Resource
