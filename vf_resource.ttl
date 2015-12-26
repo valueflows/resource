@@ -4,6 +4,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix foaf: <http://xmlns.com/foaf/0.1/#>.
 @prefix schema: <http://schema.org/>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix vf: <https://w3id.org/valueflows/>.
 
 
@@ -11,7 +12,9 @@
 
 <https://w3id.org/valueflows/>
   a owl:Ontology;
+  dc:title "Value Flows";
   rdfs:label "Value Flows";
+  dc:description "Vocabulary about activity that transforms inputs into outputs.";
   rdfs:comment "Vocabulary about activity that transforms inputs into outputs.".
   
 
