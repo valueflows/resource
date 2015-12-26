@@ -9,7 +9,11 @@
 
 # Metadata
 
-<https://w3id.org/valueflows/> rdf:type owl:Ontology .
+<https://w3id.org/valueflows/>
+  a owl:Ontology;
+  rdfs:label "Value Flows";
+  rdfs:comment "Vocabulary about activity that transforms inputs into outputs.".
+  
 
 
 # Classes
