@@ -1,0 +1,82 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/#>.
+@prefix schema: <http://schema.org/>.
+@prefix vf: <https://w3id.org/valueflows/>.
+
+
+# Classes
+
+vf:Resource
+  a owl:Class;
+  rdfs:label "Resource";
+  rdfs:comment "".
+
+vf:ResourceType
+  a skos:Concept;
+  rdfs:label "ResourceType";
+  rdfs:comment "".
+
+vf:Process
+  a owl:Class;
+  rdfs:label "Process";
+  rdfs:comment "".
+
+vf:ProcessType
+  a skos:Concept;
+  rdfs:label "ProcessType";
+  rdfs:comment "".
+
+vf:Exchange
+  a owl:Class;
+  rdfs:label "Exchange";
+  rdfs:comment "".
+
+vf:ExchangeType
+  a skos:Concept;
+  rdfs:label "ExchangeType";
+  rdfs:comment "".
+
+
+# Properties
+
+vf:resourceType
+  a owl:DatatypeProperty;
+  rdfs:label "resource type";
+  rdfs:domain vf:Resource;
+  rdfs:range vf:ResourceType.
+
+vf:processType
+  a rdf:Property;
+  skos:prefLabel "process type";
+  rdfs:domain vf:Process;
+  rdfs:range vf:ProcessType.
+
+vf:exchangeType
+  a rdf:Property;
+  skos:prefLabel "exchange type";
+  rdfs:domain vf:Exchange;
+  rdfs:range vf:ExchangeType.
+
+vf:input
+  a owl:DatatypeProperty;
+  rdfs:label "input";
+  rdfs:domain vf:Process;
+  rdfs:range vf:Resource.
+
+
+
+# Taxonomies
+
+vf:Sale
+  a skos:Concept;
+  skos:prefLabel "Sale"@en;
+  skos:broader vf:ExchangeType. 
+
+vf:Swap
+  a skos:Concept;
+  skos:prefLabel "Swap"@en;
+  skos:broader vf:ExchangeType. 
+
