@@ -18,6 +18,10 @@ is a ResourceType. Your library may have two copies that you can check out. Thos
 
 Or, if you can buy it or sell it or eat it or drive it, it's a Resource.
 
+## Model
+
+![uml model](https://github.com/valueflows/resource/blob/master/resource.png)
+
 ## ResourceTypes are a Taxonomy
 
 That means they can be defined very broadly and generally and maybe vaguely, or they can be defined very narrowly, 
