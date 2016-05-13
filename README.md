@@ -40,6 +40,8 @@ Or you may want a Granny Smith apple from your neighboring farm.
 
 * [Make 3D printed part](https://github.com/valueflows/valueflows/blob/master/use-cases/make-3d-printed-part.md)
 * [Porridge preparation](https://github.com/valueflows/valueflows/blob/master/use-cases/porridge-preparation.md)
+* [Olive oil request](https://github.com/valueflows/valueflows/blob/master/use-cases/olive-oil-request.md)
+* [Dental Care](https://github.com/valueflows/valueflows/blob/master/use-cases/dental-care.md)
 
 ## Much more to come
 
