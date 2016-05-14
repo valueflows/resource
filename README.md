@@ -20,7 +20,11 @@ Or, if you can buy it or sell it or eat it or drive it, it's a Resource.
 
 ## Model
 
-![uml model](https://github.com/valueflows/resource/blob/master/resource.png)
+![uml model](https://raw.githubusercontent.com/valueflows/resource/master/images/uml.png)
+
+![VOWL model](https://raw.githubusercontent.com/valueflows/resource/master/images/vowl.png)
+
+[open diagram with interactive WebVOWL](http://vowl.visualdataweb.org/webvowl/index.html#iri=https://raw.githubusercontent.com/valueflows/resource/master/resource.ttl)
 
 ## ResourceTypes are a Taxonomy
 
