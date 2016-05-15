@@ -26,8 +26,6 @@ Or, if you can eat it or drive it, it's a Resource.
 
 [open diagram with interactive WebVOWL](http://vowl.visualdataweb.org/webvowl/index.html#iri=https://raw.githubusercontent.com/valueflows/resource/master/resource.ttl)
 
-
-
 ## ResourceTypes are a Taxonomy
 
 That means they can be defined very broadly and generally and maybe vaguely, or they can be defined very narrowly,
@@ -49,9 +47,9 @@ Or you may want a Granny Smith apple from your neighboring farm.
 * [Olive oil request](https://github.com/valueflows/valueflows/blob/master/use-cases/olive-oil-request.md)
 * [Dental Care](https://github.com/valueflows/valueflows/blob/master/use-cases/dental-care.md)
 
-## Much more to come
+## More to come
 
-This is the first draft of the README for the resource section of the valueflows vocabulary.
+This is still very much in process.
 We will have a lot more to say about Resources and ResourceTypes, both on their own,
 and also how they behave in Processes and Exchanges, because different ResourceTypes behave very differently.
 We are discussing some of those differences in [this issue](https://github.com/valueflows/resource/issues/4).
