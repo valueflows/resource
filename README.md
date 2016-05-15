@@ -16,7 +16,7 @@ The one in a box delivered to your door is a Resource.
 Or the description of the book entitled "The Power of Babel: A Natural History of Language", ISBN ISBN-13: 978-0060520854,
 is a ResourceType. Your library may have two copies that you can check out. Those are Resources.
 
-Or, if you can buy it or sell it or eat it or drive it, it's a Resource.
+Or, if you can eat it or drive it, it's a Resource.
 
 ## Model
 
@@ -25,6 +25,8 @@ Or, if you can buy it or sell it or eat it or drive it, it's a Resource.
 ![VOWL model](https://raw.githubusercontent.com/valueflows/resource/master/images/vowl.png)
 
 [open diagram with interactive WebVOWL](http://vowl.visualdataweb.org/webvowl/index.html#iri=https://raw.githubusercontent.com/valueflows/resource/master/resource.ttl)
+
+
 
 ## ResourceTypes are a Taxonomy
 
