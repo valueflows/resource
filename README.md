@@ -26,6 +26,10 @@ Or, if you can eat it or drive it, it's a Resource.
 
 [open diagram with interactive WebVOWL](http://vowl.visualdataweb.org/webvowl/index.html#iri=https://raw.githubusercontent.com/valueflows/resource/master/resource.ttl)
 
+## Definitions
+
+* [vf:Resource](https://github.com/valueflows/resource/blob/master/Resource.md)
+
 ## ResourceTypes are a Taxonomy
 
 That means they can be defined very broadly and generally and maybe vaguely, or they can be defined very narrowly,
@@ -36,9 +40,29 @@ but fit into broader categories. Like the Tree of Life.
 So, for example, you may want an apple. Or you may want a green apple. Or you may want a Granny Smith apple.
 Or you may want a Granny Smith apple from your neighboring farm.
 
-## Definitions
+## Identification and Behaviors of Resources
 
-* [vf:Resource](https://github.com/valueflows/resource/blob/master/Resource.md)
+#### Inventory
+
+Resources can be inventoried, not inventoried but could be, or it doesn't make sense to think about inventory.
+* Inventoried: You want to keep track of it, changes in quantity, and how many you have right now.
+* Not inventoried: You could keep track of it (it is a material item), but it isn't worth it.  This usually happens for quantities of small or hard to measure items that are obtained in bulk, like solder or bolts.  In this case, you have to look at the actual resource to see if you need more, the system won't tell you.
+* Not applicable: This is for types of work (unless scheduled), services, and other resources that cannot be observed.
+
+#### Tracking
+
+Tracking IDs are usually single properties, like lot or batch ID for food and drugs, animal ID for livestock, and serial number for serialized products. Lots can be split up, but serial numbers uniquely identify a particular resource wherever it may be and whoever may have rights to it.
+
+#### Unique identifiers fo resources
+
+This can vary.  And people can be allowed within some boundaries of agreement to specify which combination of other properties would constitute identifiers.
+
+Here are some examples from manufacturing situations:
+
+* Unique identifier = an assigned serialized identifier, which is unique across manufacturers, due to agreements in an industry.  Examples are computers, vehicles, and other equipment.
+* Unique identifier = resourceType + lotID + location + owner: so in other words, the owner of the rights was part of the unique identifier of the resource, and if the resource got transferred from one owner to another, the first owner's resources would be decremented, and the second owner's resources would be incremented. 
+
+Note in the last case, a transfer of rights means a different resource. This is common with resources that are not serialized, where one logical resource has a quantity greater than 1, and the individual instances are substitutable. (Think nuts and bolts, grain, strawberries, bottles of beer in cases, etc.)
 
 ## Use Cases
 
@@ -47,9 +71,3 @@ Or you may want a Granny Smith apple from your neighboring farm.
 * [Olive oil request](https://github.com/valueflows/valueflows/blob/master/use-cases/olive-oil-request.md)
 * [Dental Care](https://github.com/valueflows/valueflows/blob/master/use-cases/dental-care.md)
 
-## More to come
-
-This is still very much in process.
-We will have a lot more to say about Resources and ResourceTypes, both on their own,
-and also how they behave in Processes and Exchanges, because different ResourceTypes behave very differently.
-We are discussing some of those differences in [this issue](https://github.com/valueflows/resource/issues/4).
