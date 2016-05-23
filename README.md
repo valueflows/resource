@@ -20,7 +20,7 @@ Or, if you can eat it or drive it or give it to someone, it's a Resource.
 
 ## Model
 
-![uml model](https://raw.githubusercontent.com/valueflows/resource/master/images/uml.png)
+![uml model](https://raw.githubusercontent.com/valueflows/resource/master/images/resource.png)
 
 ![VOWL model](https://raw.githubusercontent.com/valueflows/resource/master/images/vowl.png)
 
