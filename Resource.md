@@ -28,6 +28,17 @@ An economic resource, which is useful to people or the ecosystem.
 
 ## Examples
 
+### Value Flows ontology
+
+```yaml
+'@context': https://w3id.org/valueflows/v1
+'@id': https://w3id.org/valueflows
+'@type':
+  - vf:Resource
+  - owl:Ontology
+'vf:note': Web ontology for modeling economic relationships and interactions
+```
+
 ### Olive oil
 From [Olive oil request](https://github.com/valueflows/valueflows/blob/master/use-cases/olive-oil-request.md) use case.
 
