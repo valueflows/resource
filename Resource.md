@@ -7,16 +7,19 @@ An economic resource, which is useful to people or the ecosystem.
 
 **vf:resourceType**
 
-**vf:underlyingResource**: A more concrete resource which a resource is based upon.  For example, a resource which defines the rental of an apartment has the apartment itself as its underlying resource.  
+**vf:underlyingResource**: A more concrete resource which a resource is based upon.  For example, a resource which defines the rental of an apartment has the apartment itself as its underlying resource.
+
+(data nodes)
+
+**vf:quantity**: The quantity and unit of the resource, as defined by the context agent.
+
+**vf:quantityAvailable**:  The quantity and unit of the resource that is available for transfers or processes.  This could be a calculated amount based on the vf:amount less the quantity committed or otherwise unable to be promised for a transfer or process.
+
 
 ## Data Properties
 (attributes)
 
 **vf:trackingIdentifier**: For a resource, this can be a serial number for serialized resources (like a computer), or a lot number for batched resources (like a lot of asparagus that will be distributed in smaller quantities but may need to be tracked to its source in case of an e-coli outbreak).  Or it can just be another useful identifier.
-
-**vf:amount**: The quantity and unit of the resource, as defined by the context agent.
-
-**vf:amountAvailable**:  The quantity and unit of the resource that is available for transfers or processes.  This could be a calculated amount based on the vf:amount less the quantity committed or otherwise unable to be promised for a transfer or process.
 
 ## Open Issues
 * Resource stage (where it is based on the last process or transfer made for the same resource in a work flow situation, like Translation@translated, Translation@edited, Translation@proofread). [Issue#30](https://github.com/valueflows/resource/issues/30)
@@ -35,7 +38,7 @@ Some 2L of Olive Oil
 '@type':
   - vf:Resource
   - prodont:Olive_oil
-vf:amount':
+vf:quantity':
   '@type': qudt:QuantityValue
   'qudt:unit': unit:Liter
   'qudt:numericValue': 2
