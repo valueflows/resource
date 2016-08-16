@@ -11,9 +11,11 @@ An economic resource, which is useful to people or the ecosystem.
 
 (data nodes)
 
-**vf:quantity**: The quantity and unit of the resource, as defined by the context agent.
+**vf:quantity**: The quantity and unit of the resource.
 
-**vf:quantityAvailable**:  The quantity and unit of the resource that is available for transfers or processes.  This could be a calculated amount based on the vf:amount less the quantity committed or otherwise unable to be promised for a transfer or process.
+*NOTE: resource can have 0 quantity, one can use it for historical resources which some process consumed as well as for planned resources which a planned process will create [Issue#24](https://github.com/valueflows/resource/issues/24)*
+
+**vf:quantityAvailable**:  The quantity and unit of the resource that is available for transfers or processes.  This could be a calculated amount based on the *vf:quantity* less the quantity committed or otherwise unable to be promised for a transfer or process.
 
 
 ## Data Properties
@@ -25,6 +27,7 @@ An economic resource, which is useful to people or the ecosystem.
 * Resource stage (where it is based on the last process or transfer made for the same resource in a work flow situation, like Translation@translated, Translation@edited, Translation@proofread). [Issue#30](https://github.com/valueflows/resource/issues/30)
 * Resource access rules
 * Resource agent roles
+* Replace *vf:quantityAvailable** with logical resources [Issue#39](https://github.com/valueflows/resource/issues/39)
 
 ## Examples
 
@@ -36,7 +39,7 @@ An economic resource, which is useful to people or the ecosystem.
 '@type':
   - vf:Resource
   - owl:Ontology
-'vf:note': Web ontology for modeling economic relationships and interactions
+'skos:note': Web ontology for modeling economic relationships and interactions
 ```
 
 ### Olive oil
