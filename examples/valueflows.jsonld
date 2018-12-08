@@ -1,12 +1,12 @@
 {
   "@context": [
     "https://w3id.org/role/",
-    "https://rawgit.com/valueflows/resource/master/context.jsonld",
+    "https://cdn.jsdelivr.net/gh/valueflows/resource/context.jsonld",
     {
       "role": "https://w3id.org/role/"
     }
   ],
-  "@id": "https://rawgit.com/valueflows/resource/master/examples/valueflows.jsonld#id",
+  "@id": "https://cdn.jsdelivr.net/gh/valueflows/resource/examples/valueflows.jsonld#id",
   "url": "https://valueflo.ws/",
   "@type": "Resource",
   "displayName": "ValueFlows: Linked Data Vocabulary",
